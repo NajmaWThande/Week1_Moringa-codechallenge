@@ -1,9 +1,7 @@
 This is a three in one project given to me by Moringa school as an assignment
 
 
-## PROJECT TITLE
-
-## Grade Generator
+## PROJECT TITLE : Grade Generator
 
 ## Project Description 
 
@@ -16,9 +14,7 @@ This is a three in one project given to me by Moringa school as an assignment
 Author & Licence copyright (c) 2023 Najma W Thande
 
 
-## Project Title 2
-
-## Salary Calculator
+## Project Title : Salary Calculator
 
 ## Project Description
 
@@ -34,9 +30,7 @@ Author & Licence copyright (c) 2023 Najma W Thande
 
 Author & Licence copyright (c) 2023 Najma W Thande
 
-## Project title 
-
-## Speed Detector
+## Project title : Speed Detector
 
 ## Project Description 
 
