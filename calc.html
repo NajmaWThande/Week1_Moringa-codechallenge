@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>Student Grade Generator</h1>
+    <form>
+        <label for="mark">Enter marks: </label>
+        <input type="number" id="mark">
+    </form>
+    <button type="submit" id="calculateGrade" onclick='displayGrade()'>Calculate Grade</button>
+    <h2 id="Result">Result:</h2>
+    <script src="index.js"></script> 
+  </div>
+    
+    <div>
+        <h1>Speed Detector</h1>
+        <form>
+            <label for="speed">Speed</label>
+            <input type="number" id="speed">
+        </form>
+        <button id="button" onclick="calculateSpeed()">calculate Speed</button>
+        <h3 id="result">Result: </h3>
+        <h3 id="licenseStatus">License Status</h3>
+        <script src="speed.js"></script> 
+    </div>
+
+
+    <div>
+        <h1>Salary Calculator</h1>
+        <h2>Enter Basic Salary and Benefits</h2>
+        <form>
+            <label for="basicSalary">Basic Salary:</label>
+            <input type="number" id="basicSalary">
+            <label for="benefits">Benefits:</label>
+            <input type="number" id="benefits">
+        </form>
+        <button onclick="displaySalary()">Display Salary</button>
+        <h3 id="result">Result: </h3>
+        <h3 id="grossSalary">Gross Salary: </h3>
+        <h3 id="payeeTax">Payee Tax: </h3>
+        <h3 id="nhifDeduction">NHIF Contribution: </h3>
+        <h3 id="nssfDeduction">NSSF Deduction: </h3>
+        <h3 id="netSalary">Net Salary: </h3>
+        
+        <script src="salary.js"></script>
+    </div>
+</body>
+</html>
